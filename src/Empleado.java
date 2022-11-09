@@ -1,8 +1,3 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by FernFlower decompiler)
-//
-
 import java.util.Date;
 
 class Empleado {
@@ -14,8 +9,9 @@ class Empleado {
         this.birthDate = birthDate;
     }
 
+    @Override
     public String toString() {
-        String var10000 = this.nombre;
-        return "Empleado: " + var10000 + " (nacido en 19" + this.birthDate.getYear() + ")";
+        return "Empleado: " + nombre + " (nacido en 19" + birthDate.getYear() + ")";
     }
+
 }
